@@ -1,0 +1,92 @@
+*{margin: 0px; padding: 0px;}
+
+body, html{height: 100%;}
+body{
+  background: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*INICIO MENU*/
+#menu{
+  list-style: none;
+  line-height: 42px;
+  margin: 2em auto;
+  padding-left: 0;
+  width: 15em;
+}
+
+#menu a{
+  color:#ddd;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+}
+#menu a:hover{
+  margin-left: 10px;
+  transition: all .4s;
+}
+
+#menu li{
+  box-shadow: 3px 0 rgba(255, 255, 255, .2) inset;
+  margin-bottom: 5px;
+  padding-left: 1.5em;
+  transition: all .4s;
+}
+
+#menu li i{margin-right: 5px;}
+
+#menu li:hover{
+  box-shadow: 15em 0 rgba(255, 255, 255, .2) inset;
+}
+/*FIN MENU*/
+
+/*INICIO POSDCION MENU*/
+nav{
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: -20em;
+  padding-top: 1em;
+  z-index: 20;
+  height: 100%;
+  transition: all .4s;
+}
+
+nav.mostrar{
+  left: 0;
+}
+
+#mostrar-nav {
+  background: rgba(0, 0, 0, 0.8);
+  color:#ddd;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  margin-top: 100px;
+  margin-left: 10px;
+  text-align: center;
+  z-index: 30;
+}
+
+.titulo{padding-top:8px;}
+
+@media (min-width: 767px) {
+  #mostrar-nav {display: none;}
+}
+/*FIN POSDCION MENU*/
+#header-img{
+  height: 110px;
+  width: 100%;
+}
+
+header{padding-top: 10px;}
+
+#pagina{width: calc(100% - 15em);}
+
+@media (max-width: 767px) {
+  nav{padding-top: 9em;}
+  #pagina{width: 100%;}
+}
