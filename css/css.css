@@ -82,9 +82,13 @@ nav.mostrar{
   width: 100%;
 }
 
+
 header{padding-top: 10px;}
 
 #pagina{width: calc(100% - 15em);}
+
+fieldset{width: 95%;}
+legend{color:black;}
 
 @media (max-width: 767px) {
   nav{padding-top: 9em;}
