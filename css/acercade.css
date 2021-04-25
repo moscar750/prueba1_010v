@@ -8,9 +8,8 @@
 
     float: left;
   }
-  .contenedor{
-    justify-content: center;
-    overflow: hidden;
+  .lorem{
+    margin-bottom: 20px;
   }
 
   .lider1{text-align: right;}
