@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/csscarrusel.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -36,7 +37,7 @@
               </div>
               <div class="col-md-8">
                 <div class="row h-100 w-100 justify-content-center align-items-center">
-                  <h1 class="text-center titulo"><strong>Sitios y Parcelas</strong></h1>
+                  <font class="titulo-1 text-center titulo"><strong>Sitios y Parcelas</strong></font>
                 </div>
               </div>
             </div>
@@ -44,8 +45,52 @@
         </header>
         <section class="w-100">
           <div class="container-fluid">
-            <fieldset class="border p-2 ">
-              <legend  class="w-auto"><strong>Inicio</strong></legend>
+            <fieldset class="border p-2">
+
+              <legend  class="w-auto">
+                <strong>Inicio</strong>
+              </legend>
+
+              <div class="container principal">
+                  <h1 class="margen-abajo-20p"><strong>propiedades destacadas</strong></h1>
+
+                <div id="carouselExampleControls" class="carousel slide container" data-ride="carousel">
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item descripcion">
+                      <img src="./imagencarrusel/1.jpg" class="d-block centrarimagen margen-abajo-20p imagencarrusel"  alt="...">
+                          <h3><strong>ubicacion: patio la vega central</strong></h3>
+                          <h3><strong>metros2: 5000</strong></h3>
+                          <h3><strong>valor UF: $xx.xxx</strong></h3>
+                    </div>
+                    <div class="carousel-item active descripcion">
+                      <img src="./imagencarrusel/2.jpg" class="d-block centrarimagen margen-abajo-20p imagencarrusel"  alt="...">
+                      <h3><strong>ubicacion: cerro renca (toma)</strong></h3>
+                      <h3><strong>metros2: 5000</strong></h3>
+                      <h3><strong>valor UF: $xx.xxx</strong></h3>
+                    </div>
+                    <div class="carousel-item descripcion">
+                      <img src="./imagencarrusel/3.jpg" class="d-block centrarimagen margen-abajo-20p imagencarrusel"  alt="...">
+                      <h3><strong>ubicacion: peñaflor</strong></h3>
+                      <h3><strong>metros2: 5000</strong></h3>
+                      <h3><strong>valor UF: $xx.xxx</strong></h3>
+                    </div>
+                  </div>
+
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                  </a>
+                </div>
+                <div>
+                </div>
+              </div>
+
+
             </fieldset>
           </div>
         </section>
