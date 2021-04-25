@@ -2,7 +2,7 @@ $('#mostrar-nav').on('click', function(){
   $('nav').toggleClass('mostrar');
 })
 
-if ($( window ).width() < 992){
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   var element = document.getElementById("my-nav");
   element.classList.remove("mostrar");
 }
