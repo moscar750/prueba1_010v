@@ -73,7 +73,7 @@ nav.mostrar{
 
 .titulo{padding-top:8px;}
 
-@media (min-width: 767px) {
+@media (min-width: 992px) {
   #mostrar-nav {display: none;}
 }
 /*FIN POSDCION MENU*/
@@ -87,10 +87,16 @@ header{padding-top: 10px;}
 
 #pagina{width: calc(100% - 15em);}
 
-fieldset{width: 95%;}
-legend{color:black;}
+fieldset{
+  width: 100%;
+  border: 1px solid black;
+}
+legend{
+  color:black;
+  margin-left: 10px;
+}
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   nav{padding-top: 9em;}
   #pagina{width: 100%;}
 }
