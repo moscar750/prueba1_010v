@@ -1,0 +1,6 @@
+select{
+  max-width: 300px;
+  width: 90%;
+}
+
+fieldset div{margin: 40px 0px 40px 0px;}
