@@ -1,0 +1,32 @@
+.principal{
+    text-align: center;
+}
+.margen-top-20p{
+  margin-top: auto;
+}
+.margen-abajo-20p{
+  margin-bottom: 20px;
+}
+
+.textoborde{
+    width: 50px;
+    font-size:18px;
+    margin-top:-12px;
+    margin-bottom: 15px;
+    margin-left:7px;
+    background:white;
+}
+.centrarimagen {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+.margen-izquierda-10px{
+margin-left: 10px;
+
+}
+.margen-derecha-10px{
+margin-right: 10px;
+
+}
