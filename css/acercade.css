@@ -1,0 +1,24 @@
+
+
+
+.imagencenter{
+  display: table-cell;
+  vertical-align: middle;}
+  .divhorizontal{
+
+    float: left;
+  }
+  .lorem{
+    margin-bottom: 20px;
+  }
+
+  .lider1{text-align: right;}
+  .lider2{text-align: left;}
+  @media (max-width: 992px) {
+    .lider1{text-align: center;}
+    .lider2{text-align: center;}
+  }
+  .imagenperfil{
+  width: 100px;
+  height: 100px;
+  }
