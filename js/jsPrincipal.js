@@ -8,6 +8,16 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 
 $(window).on('resize', function(){
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    var element = document.getElementById("my-nav");
+    element.classList.remove("mostrar");
+  }else{
+    var element = document.getElementById("my-nav");
+    element.classList.add("mostrar");
+  }
+});
+
+$(window).on('resize', function(){
   if ($( window ).width() < 992){
     var element = document.getElementById("my-nav");
     element.classList.remove("mostrar");
@@ -16,3 +26,8 @@ $(window).on('resize', function(){
     element.classList.add("mostrar");
   }
 });
+
+if ($( window ).width() < 992){
+  var element = document.getElementById("my-nav");
+  element.classList.remove("mostrar");
+}
