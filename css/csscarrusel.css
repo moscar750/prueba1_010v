@@ -33,8 +33,9 @@ margin-right: 10px;
 width: 100%;
 height: 300px;
 }
-
+.descripcion{text-align: center;}
 #carouselExampleControls{width: 70%;}
 @media (max-width: 992px) {
   #carouselExampleControls{width: 100%;}
+  .descripcion{text-align: left;}
 }
