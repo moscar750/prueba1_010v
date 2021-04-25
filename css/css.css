@@ -80,40 +80,51 @@ nav.mostrar{
   width: 100%;
 }
 
-
-header{padding-top: 10px;
-height: 125px;}
-
-#pagina{width: calc(100% - 15em);}
-
-fieldset{
-  width: 100%;
-  height: 95%;
-  border: 1px solid black;
-}
-legend{
-  color:black;
-  margin-left: 10px;
+.boton{
+  font-size:15px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background: rgba(0, 0, 0, 0.7);
+  border:0px;
+  width:80px;
+  height:25px;
 }
 
-section{min-height: calc(100% - 125px);}
+header{
+  padding-top: 10px;
+  height: 125px;}
 
-@media (max-width: 992px) {
-  nav{padding-top: 9em;}
-  #pagina{width: 100%;}
-  .titulo{font-size: 50px;}
-  fieldset{margin-top: 50px;}
-}
-@media (max-width: 767px) {
-  .titulo{font-size: 40px;
-    padding-top:0px;
+  #pagina{width: calc(100% - 15em);}
+
+  fieldset{
+    width: 100%;
+    height: 95%;
+    border: 1px solid black;
+  }
+  legend{
+    color:black;
+    margin-left: 10px;
   }
 
-  fieldset{margin-top: 3em;}
-}
+  section{min-height: calc(100% - 125px);}
 
-@media (max-width: 480px) {
-  .titulo{font-size: 20px;
-  padding-top:7px;}
-  fieldset{margin-top: 3em;}
-}
+  @media (max-width: 992px) {
+    nav{padding-top: 9em;}
+    #pagina{width: 100%;}
+    .titulo{font-size: 50px;}
+    fieldset{margin-top: 50px;}
+  }
+  @media (max-width: 767px) {
+    .titulo{font-size: 40px;
+      padding-top:0px;
+    }
+
+    fieldset{margin-top: 3em;}
+  }
+
+  @media (max-width: 480px) {
+    .titulo{font-size: 20px;
+      padding-top:7px;}
+      fieldset{margin-top: 3em;}
+    }
