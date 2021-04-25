@@ -71,7 +71,10 @@ nav.mostrar{
   z-index: 30;
 }
 
-.titulo{padding-top:8px;}
+.titulo{
+  padding-top:8px;
+  font-size: 60px;
+}
 
 @media (min-width: 992px) {
   #mostrar-nav {display: none;}
@@ -99,4 +102,14 @@ legend{
 @media (max-width: 992px) {
   nav{padding-top: 9em;}
   #pagina{width: 100%;}
+  .titulo{font-size: 30px;}
+  fieldset{margin-top: 50px;}
+}
+@media (max-width: 767px) {
+  fieldset{margin-top: 9px;}
+}
+
+@media (max-width: 480px) {
+  .titulo{font-size: 20px;}
+  fieldset{margin-top: 10px;}
 }
