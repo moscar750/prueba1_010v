@@ -44,7 +44,7 @@ body{
 /*INICIO POSDCION MENU*/
 nav{
   background: rgba(0, 0, 0, 0.8);
-  position: absolute;
+  position: fixed;
   left: -20em;
   padding-top: 1em;
   z-index: 20;
@@ -59,14 +59,12 @@ nav.mostrar{
 #mostrar-nav {
   background: rgba(0, 0, 0, 0.8);
   color:#ddd;
-  position: absolute;
-  top: 1em;
-  left: 1em;
+  position: fixed;
+  top: 5em;
+  left: 15px;
   font-size: 25px;
   width: 35px;
   height: 35px;
-  margin-top: 100px;
-  margin-left: 10px;
   text-align: center;
   z-index: 30;
 }
@@ -86,12 +84,14 @@ nav.mostrar{
 }
 
 
-header{padding-top: 10px;}
+header{padding-top: 10px;
+height: 125px;}
 
 #pagina{width: calc(100% - 15em);}
 
 fieldset{
   width: 100%;
+  height: 95%;
   border: 1px solid black;
 }
 legend{
@@ -99,17 +99,24 @@ legend{
   margin-left: 10px;
 }
 
+section{min-height: calc(100% - 125px);}
+
 @media (max-width: 992px) {
   nav{padding-top: 9em;}
   #pagina{width: 100%;}
-  .titulo{font-size: 30px;}
+  .titulo{font-size: 50px;}
   fieldset{margin-top: 50px;}
 }
 @media (max-width: 767px) {
-  fieldset{margin-top: 9px;}
+  .titulo{font-size: 40px;
+    padding-top:0px;
+  }
+
+  fieldset{margin-top: 3em;}
 }
 
 @media (max-width: 480px) {
-  .titulo{font-size: 20px;}
-  fieldset{margin-top: 10px;}
+  .titulo{font-size: 20px;
+  padding-top:7px;}
+  fieldset{margin-top: 3em;}
 }
