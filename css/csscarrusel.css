@@ -28,5 +28,13 @@ margin-left: 10px;
 }
 .margen-derecha-10px{
 margin-right: 10px;
+}
+.imagencarrusel{
+width: 100%;
+height: 300px;
+}
 
+#carouselExampleControls{width: 70%;}
+@media (max-width: 992px) {
+  #carouselExampleControls{width: 100%;}
 }
