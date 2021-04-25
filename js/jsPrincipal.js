@@ -4,7 +4,7 @@ $('#mostrar-nav').on('click', function(){
 
 
 $(window).on('resize', function(){
-  if ($( window ).width() < 767){
+  if ($( window ).width() < 992){
     var element = document.getElementById("my-nav");
     element.classList.remove("mostrar");
   }else{
